@@ -1,0 +1,295 @@
+{
+  "simulation": {
+    "Nframes": 365,
+    "rad": 50,
+    "tinterval": 1000
+  },
+  "bodies": {
+    "Sun": {
+      "type": "star",
+      "radP": 0.0,
+      "radA": 0.0,
+      "rad": 0.0,
+      "frames": 365,
+      "eccentricity": 0.0,
+      "color": "orange",
+      "markerSize": 4
+    },
+    "Mercury": {
+      "type": "planet",
+      "radP": 0.307499,
+      "radA": 0.466697,
+      "rad": 0.387098,
+      "frames": 88,
+      "eccentricity": 0.205630,
+      "color": "grey",
+      "lineColor": "brown",
+      "markerSize": 2
+    },
+    "Venus": {
+      "type": "planet",
+      "radP": 0.718440,
+      "radA": 0.728213,
+      "rad": 0.723332,
+      "frames": 225,
+      "eccentricity": 0.0068,
+      "color": "orange",
+      "lineColor": "red",
+      "markerSize": 3
+    },
+    "Earth": {
+      "type": "planet",
+      "radP": 0.9832899,
+      "radA": 1.0167103,
+      "rad": 1.0,
+      "frames": 365,
+      "eccentricity": 0.0167,
+      "color": "blue",
+      "lineColor": "blue",
+      "markerSize": 4,
+      "moons": {
+        "Moon": {
+          "radP": 0.00242382,
+          "radA": 0.00270992,
+          "rad": 0.00257,
+          "frames": 27,
+          "eccentricity": 0.0549,
+          "color": "red",
+          "lineColor": "0.75",
+          "markerSize": 1
+        }
+      }
+    },
+    "Mars": {
+      "type": "planet",
+      "radP": 1.382,
+      "radA": 1.666,
+      "rad": 1.523679,
+      "frames": 687,
+      "eccentricity": 0.0934,
+      "color": "red",
+      "lineColor": "orange",
+      "markerSize": 4,
+      "moons": {
+        "Phobos": {
+          "radP": 0.000061728,
+          "radA": 0.0000063621,
+          "rad": 0.0000626746,
+          "frames": 10,
+          "eccentricity": 0.0151,
+          "color": "red",
+          "lineColor": "0.75",
+          "markerSize": 1
+        },
+        "Deimos": {
+          "radP": 0.000156790,
+          "radA": 0.000156893,
+          "rad": 0.000156841,
+          "frames": 10,
+          "eccentricity": 0.00033,
+          "color": "red",
+          "lineColor": "0.75",
+          "markerSize": 1
+        }
+      }
+    },
+    "Vesta": {
+      "type": "asteroid",
+      "radP": 2.15221,
+      "radA": 2.57138,
+      "rad": 2.36179,
+      "frames": 1326,
+      "eccentricity": 0.0887,
+      "color": "black",
+      "lineColor": "grey",
+      "markerSize": 1
+    },
+    "Ceres": {
+      "type": "asteroid",
+      "radP": 2.5577,
+      "radA": 2.9773,
+      "rad": 2.7675,
+      "frames": 1682,
+      "eccentricity": 0.0758,
+      "color": "grey",
+      "lineColor": "black",
+      "markerSize": 1
+    },
+    "Jupiter": {
+      "type": "planet",
+      "radP": 4.9501,
+      "radA": 5.4588,
+      "rad": 5.2044,
+      "frames": 4333,
+      "eccentricity": 0.0484,
+      "color": "red",
+      "lineColor": "orange",
+      "markerSize": 6,
+      "moons": {
+        "Io": {
+          "radP": 0.002807,
+          "radA": 0.002830,
+          "rad": 0.002819,
+          "frames": 20,
+          "eccentricity": 0.0041,
+          "color": "red",
+          "lineColor": "0.75",
+          "markerSize": 1
+        },
+        "Europa": {
+          "radP": 0.00444,
+          "radA": 0.004525,
+          "rad": 0.004484,
+          "frames": 20,
+          "eccentricity": 0.0094,
+          "color": "red",
+          "lineColor": "0.75",
+          "markerSize": 1
+        },
+        "Ganymede": {
+          "radP": 0.007147,
+          "radA": 0.00716319,
+          "rad": 0.00715517,
+          "frames": 25,
+          "eccentricity": 0.0011,
+          "color": "red",
+          "lineColor": "0.75",
+          "markerSize": 1
+        },
+        "Callisto": {
+          "radP": 0.012493,
+          "radA": 0.012680,
+          "rad": 0.012585,
+          "frames": 27,
+          "eccentricity": 0.0074,
+          "color": "red",
+          "lineColor": "0.75",
+          "markerSize": 1
+        }
+      }
+    },
+    "Saturn": {
+      "type": "planet",
+      "radP": 9.0412,
+      "radA": 10.1238,
+      "rad": 9.5826,
+      "frames": 10759,
+      "eccentricity": 0.0541,
+      "color": "orange",
+      "lineColor": "red",
+      "markerSize": 5,
+      "moons": {
+        "Titan": {
+          "radP": 0.00793,
+          "radA": 0.00840,
+          "rad": 0.00816,
+          "frames": 16,
+          "eccentricity": 0.0288,
+          "color": "red",
+          "lineColor": "orange",
+          "markerSize": 3
+        },
+        "Enceladus": {
+          "radP": 0.001590,
+          "radA": 0.001620,
+          "rad": 0.001590,
+          "frames": 9,
+          "eccentricity": 0.0,
+          "color": "cyan",
+          "lineColor": "blue",
+          "markerSize": 1
+        }
+      }
+    },
+    "Uranus": {
+      "type": "planet",
+      "radP": 18.33,
+      "radA": 20.11,
+      "rad": 19.2184,
+      "frames": 30689,
+      "eccentricity": 0.0472,
+      "color": "cyan",
+      "lineColor": "blue",
+      "markerSize": 2,
+      "moons": {
+        "Miranda": {
+          "radP": 0.000864,
+          "radA": 0.000913,
+          "rad": 0.000900,
+          "frames": 10,
+          "eccentricity": 0.0013,
+          "color": "grey",
+          "lineColor": "0.75",
+          "markerSize": 1
+        }
+      }
+    },
+    "Neptune": {
+      "type": "planet",
+      "radP": 29.81,
+      "radA": 30.33,
+      "rad": 30.110387,
+      "frames": 60182,
+      "eccentricity": 0.0086,
+      "color": "blue",
+      "lineColor": "cyan",
+      "markerSize": 2,
+      "moons": {
+        "Triton": {
+          "radP": 0.0021105,
+          "radA": 0.0023714,
+          "rad": 0.002371415,
+          "frames": 8,
+          "eccentricity": 0.0,
+          "color": "red",
+          "lineColor": "0.75",
+          "markerSize": 1
+        }
+      }
+    },
+    "Pluto": {
+      "type": "dwarf_planet",
+      "radP": 29.658,
+      "radA": 49.305,
+      "rad": 39.48,
+      "frames": 90560,
+      "eccentricity": 0.2488,
+      "color": "brown",
+      "lineColor": "black",
+      "markerSize": 1
+    },
+    "Haumea": {
+      "type": "dwarf_planet",
+      "radP": 34.952,
+      "radA": 51.483,
+      "rad": 43.218,
+      "frames": 103774,
+      "eccentricity": 0.1887,
+      "color": "black",
+      "lineColor": "grey",
+      "markerSize": 2
+    },
+    "Makemake": {
+      "type": "dwarf_planet",
+      "radP": 38.590,
+      "radA": 52.840,
+      "rad": 45.715,
+      "frames": 112897,
+      "eccentricity": 0.1559,
+      "color": "grey",
+      "lineColor": "black",
+      "markerSize": 2
+    },
+    "Halleys": {
+      "type": "comet",
+      "radP": 0.6,
+      "radA": 35.0,
+      "rad": 17.8,
+      "frames": 27492,
+      "eccentricity": 0.9671,
+      "color": "blue",
+      "lineColor": "blue",
+      "markerSize": 4
+    }
+  }
+}
