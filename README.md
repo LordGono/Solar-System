@@ -13,17 +13,37 @@ An animated visualization of the solar system showing planets, dwarf planets, as
 python SolarSystem.py
 ```
 
+## Interactive Features
+
+### Mouse Controls
+- **Mouse Wheel**: Zoom in/out (centers on cursor position)
+- **Click + Drag**: Pan around the solar system
+- **Double-Click**: Focus on a celestial body
+
+### Keyboard Shortcuts
+- **L**: Toggle labels on/off
+- **G**: Toggle grid on/off
+- **R**: Reset view to default
+
+### Visual Features
+- **Labels**: Each celestial body is labeled with its name
+- **Dark Theme**: Space-themed background for better visibility
+- **Orbit Trails**: See the paths traced by each body
+- **Semi-transparent Grid**: Optional coordinate grid for reference
+
 ## Design Benefits
 
 ### Clean Architecture
-- **Concise**: ~150 lines of clean, reusable code
+- **Concise**: ~290 lines including full UI controls
 - **Data-Driven**: All orbital parameters stored in JSON
 - **Maintainable**: Single animation function handles all bodies
+- **Interactive**: Full mouse and keyboard controls
 
 ### Easy Modifications
 - **Update Parameters**: Change orbital values in JSON without touching code
 - **Add Bodies**: Add new planets/moons by simply adding JSON entries
 - **Clear Structure**: Hierarchical organization (planets have moons)
+- **Customizable UI**: Easy to add new controls and features
 
 ### Example: Adding a New Moon
 
