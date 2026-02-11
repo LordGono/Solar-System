@@ -1,6 +1,6 @@
 {
   "simulation": {
-    "Nframes": 365,
+    "Nframes": 4380,
     "rad": 50,
     "tinterval": 1000
   },
@@ -12,6 +12,7 @@
       "rad": 0.0,
       "frames": 365,
       "eccentricity": 0.0,
+      "inclination": 0.0,
       "color": "orange",
       "markerSize": 4
     },
@@ -22,6 +23,7 @@
       "rad": 0.387098,
       "frames": 88,
       "eccentricity": 0.205630,
+      "inclination": 7.0,
       "color": "grey",
       "lineColor": "brown",
       "markerSize": 2
@@ -33,6 +35,7 @@
       "rad": 0.723332,
       "frames": 225,
       "eccentricity": 0.0068,
+      "inclination": 3.4,
       "color": "orange",
       "lineColor": "red",
       "markerSize": 3
@@ -44,6 +47,7 @@
       "rad": 1.0,
       "frames": 365,
       "eccentricity": 0.0167,
+      "inclination": 0.0,
       "color": "blue",
       "lineColor": "blue",
       "markerSize": 4,
@@ -54,6 +58,7 @@
           "rad": 0.00257,
           "frames": 27,
           "eccentricity": 0.0549,
+          "inclination": 5.1,
           "color": "red",
           "lineColor": "0.75",
           "markerSize": 1
@@ -67,6 +72,7 @@
       "rad": 1.523679,
       "frames": 687,
       "eccentricity": 0.0934,
+      "inclination": 1.85,
       "color": "red",
       "lineColor": "orange",
       "markerSize": 4,
@@ -77,6 +83,7 @@
           "rad": 0.0000626746,
           "frames": 10,
           "eccentricity": 0.0151,
+          "inclination": 1.1,
           "color": "red",
           "lineColor": "0.75",
           "markerSize": 1
@@ -87,6 +94,7 @@
           "rad": 0.000156841,
           "frames": 10,
           "eccentricity": 0.00033,
+          "inclination": 1.8,
           "color": "red",
           "lineColor": "0.75",
           "markerSize": 1
@@ -100,6 +108,7 @@
       "rad": 2.36179,
       "frames": 1326,
       "eccentricity": 0.0887,
+      "inclination": 7.1,
       "color": "black",
       "lineColor": "grey",
       "markerSize": 1
@@ -111,6 +120,7 @@
       "rad": 2.7675,
       "frames": 1682,
       "eccentricity": 0.0758,
+      "inclination": 10.6,
       "color": "grey",
       "lineColor": "black",
       "markerSize": 1
@@ -122,47 +132,85 @@
       "rad": 5.2044,
       "frames": 4333,
       "eccentricity": 0.0484,
+      "inclination": 1.3,
       "color": "red",
       "lineColor": "orange",
       "markerSize": 6,
       "moons": {
+        "Amalthea": {
+          "radP": 0.001210,
+          "radA": 0.001217,
+          "rad": 0.001213,
+          "frames": 5,
+          "eccentricity": 0.003,
+          "inclination": 0.4,
+          "color": "red",
+          "lineColor": "0.75",
+          "markerSize": 1
+        },
+        "Thebe": {
+          "radP": 0.001455,
+          "radA": 0.001509,
+          "rad": 0.001483,
+          "frames": 7,
+          "eccentricity": 0.018,
+          "inclination": 1.1,
+          "color": "orange",
+          "lineColor": "0.75",
+          "markerSize": 1
+        },
         "Io": {
           "radP": 0.002807,
           "radA": 0.002830,
           "rad": 0.002819,
-          "frames": 20,
-          "eccentricity": 0.0041,
-          "color": "red",
+          "frames": 18,
+          "eccentricity": 0.004,
+          "inclination": 0.0,
+          "color": "yellow",
           "lineColor": "0.75",
-          "markerSize": 1
+          "markerSize": 2
         },
         "Europa": {
           "radP": 0.00444,
           "radA": 0.004525,
           "rad": 0.004484,
-          "frames": 20,
-          "eccentricity": 0.0094,
-          "color": "red",
+          "frames": 35,
+          "eccentricity": 0.009,
+          "inclination": 0.5,
+          "color": "cyan",
           "lineColor": "0.75",
-          "markerSize": 1
+          "markerSize": 2
         },
         "Ganymede": {
           "radP": 0.007147,
           "radA": 0.00716319,
           "rad": 0.00715517,
-          "frames": 25,
-          "eccentricity": 0.0011,
-          "color": "red",
+          "frames": 72,
+          "eccentricity": 0.001,
+          "inclination": 0.2,
+          "color": "grey",
           "lineColor": "0.75",
-          "markerSize": 1
+          "markerSize": 2
         },
         "Callisto": {
           "radP": 0.012493,
           "radA": 0.012680,
           "rad": 0.012585,
-          "frames": 27,
-          "eccentricity": 0.0074,
-          "color": "red",
+          "frames": 167,
+          "eccentricity": 0.007,
+          "inclination": 0.3,
+          "color": "brown",
+          "lineColor": "0.75",
+          "markerSize": 2
+        },
+        "Himalia": {
+          "radP": 0.064259,
+          "radA": 0.088696,
+          "rad": 0.076478,
+          "frames": 2499,
+          "eccentricity": 0.160,
+          "inclination": 28.4,
+          "color": "grey",
           "lineColor": "0.75",
           "markerSize": 1
         }
@@ -175,29 +223,98 @@
       "rad": 9.5826,
       "frames": 10759,
       "eccentricity": 0.0541,
+      "inclination": 2.5,
       "color": "orange",
       "lineColor": "red",
       "markerSize": 5,
       "moons": {
-        "Titan": {
-          "radP": 0.00793,
-          "radA": 0.00840,
-          "rad": 0.00816,
-          "frames": 16,
-          "eccentricity": 0.0288,
-          "color": "red",
-          "lineColor": "orange",
-          "markerSize": 3
+        "Mimas": {
+          "radP": 0.001220,
+          "radA": 0.001269,
+          "rad": 0.001243,
+          "frames": 9,
+          "eccentricity": 0.020,
+          "inclination": 1.6,
+          "color": "grey",
+          "lineColor": "0.75",
+          "markerSize": 1
         },
         "Enceladus": {
           "radP": 0.001590,
           "radA": 0.001620,
-          "rad": 0.001590,
-          "frames": 9,
-          "eccentricity": 0.0,
+          "rad": 0.001593,
+          "frames": 14,
+          "eccentricity": 0.005,
+          "inclination": 0.0,
+          "color": "white",
+          "lineColor": "cyan",
+          "markerSize": 2
+        },
+        "Tethys": {
+          "radP": 0.001971,
+          "radA": 0.001975,
+          "rad": 0.001972,
+          "frames": 19,
+          "eccentricity": 0.001,
+          "inclination": 1.1,
           "color": "cyan",
-          "lineColor": "blue",
+          "lineColor": "0.75",
           "markerSize": 1
+        },
+        "Dione": {
+          "radP": 0.002520,
+          "radA": 0.002530,
+          "rad": 0.002525,
+          "frames": 27,
+          "eccentricity": 0.002,
+          "inclination": 0.0,
+          "color": "grey",
+          "lineColor": "0.75",
+          "markerSize": 1
+        },
+        "Rhea": {
+          "radP": 0.003521,
+          "radA": 0.003528,
+          "rad": 0.003524,
+          "frames": 45,
+          "eccentricity": 0.001,
+          "inclination": 0.3,
+          "color": "brown",
+          "lineColor": "0.75",
+          "markerSize": 2
+        },
+        "Titan": {
+          "radP": 0.00793,
+          "radA": 0.00840,
+          "rad": 0.00817,
+          "frames": 160,
+          "eccentricity": 0.029,
+          "inclination": 0.3,
+          "color": "orange",
+          "lineColor": "red",
+          "markerSize": 3
+        },
+        "Hyperion": {
+          "radP": 0.008862,
+          "radA": 0.010942,
+          "rad": 0.009902,
+          "frames": 213,
+          "eccentricity": 0.105,
+          "inclination": 0.6,
+          "color": "grey",
+          "lineColor": "0.75",
+          "markerSize": 1
+        },
+        "Iapetus": {
+          "radP": 0.023149,
+          "radA": 0.024487,
+          "rad": 0.023818,
+          "frames": 793,
+          "eccentricity": 0.028,
+          "inclination": 7.6,
+          "color": "black",
+          "lineColor": "white",
+          "markerSize": 2
         }
       }
     },
@@ -208,6 +325,7 @@
       "rad": 19.2184,
       "frames": 30689,
       "eccentricity": 0.0472,
+      "inclination": 0.77,
       "color": "cyan",
       "lineColor": "blue",
       "markerSize": 2,
@@ -215,12 +333,57 @@
         "Miranda": {
           "radP": 0.000864,
           "radA": 0.000913,
-          "rad": 0.000900,
-          "frames": 10,
-          "eccentricity": 0.0013,
+          "rad": 0.000868,
+          "frames": 14,
+          "eccentricity": 0.001,
+          "inclination": 4.4,
           "color": "grey",
           "lineColor": "0.75",
           "markerSize": 1
+        },
+        "Ariel": {
+          "radP": 0.001275,
+          "radA": 0.001278,
+          "rad": 0.001276,
+          "frames": 25,
+          "eccentricity": 0.001,
+          "inclination": 0.0,
+          "color": "white",
+          "lineColor": "0.75",
+          "markerSize": 1
+        },
+        "Umbriel": {
+          "radP": 0.001771,
+          "radA": 0.001785,
+          "rad": 0.001778,
+          "frames": 41,
+          "eccentricity": 0.004,
+          "inclination": 0.1,
+          "color": "black",
+          "lineColor": "0.75",
+          "markerSize": 1
+        },
+        "Titania": {
+          "radP": 0.002910,
+          "radA": 0.002922,
+          "rad": 0.002916,
+          "frames": 87,
+          "eccentricity": 0.002,
+          "inclination": 0.1,
+          "color": "orange",
+          "lineColor": "0.75",
+          "markerSize": 2
+        },
+        "Oberon": {
+          "radP": 0.003893,
+          "radA": 0.003908,
+          "rad": 0.003900,
+          "frames": 135,
+          "eccentricity": 0.002,
+          "inclination": 0.1,
+          "color": "brown",
+          "lineColor": "0.75",
+          "markerSize": 2
         }
       }
     },
@@ -231,17 +394,41 @@
       "rad": 30.110387,
       "frames": 60182,
       "eccentricity": 0.0086,
+      "inclination": 1.77,
       "color": "blue",
       "lineColor": "cyan",
       "markerSize": 2,
       "moons": {
+        "Proteus": {
+          "radP": 0.000786,
+          "radA": 0.000786,
+          "rad": 0.000786,
+          "frames": 11,
+          "eccentricity": 0.000,
+          "inclination": 0.0,
+          "color": "grey",
+          "lineColor": "0.75",
+          "markerSize": 1
+        },
         "Triton": {
-          "radP": 0.0021105,
-          "radA": 0.0023714,
-          "rad": 0.002371415,
-          "frames": 8,
-          "eccentricity": 0.0,
-          "color": "red",
+          "radP": 0.002371,
+          "radA": 0.002371,
+          "rad": 0.002371,
+          "frames": 59,
+          "eccentricity": 0.000,
+          "inclination": 157.3,
+          "color": "cyan",
+          "lineColor": "pink",
+          "markerSize": 2
+        },
+        "Nereid": {
+          "radP": 0.009179,
+          "radA": 0.064538,
+          "rad": 0.036859,
+          "frames": 3601,
+          "eccentricity": 0.751,
+          "inclination": 5.1,
+          "color": "grey",
           "lineColor": "0.75",
           "markerSize": 1
         }
@@ -254,6 +441,7 @@
       "rad": 39.48,
       "frames": 90560,
       "eccentricity": 0.2488,
+      "inclination": 17.2,
       "color": "brown",
       "lineColor": "black",
       "markerSize": 1
@@ -265,6 +453,7 @@
       "rad": 43.218,
       "frames": 103774,
       "eccentricity": 0.1887,
+      "inclination": 28.2,
       "color": "black",
       "lineColor": "grey",
       "markerSize": 2
@@ -276,6 +465,7 @@
       "rad": 45.715,
       "frames": 112897,
       "eccentricity": 0.1559,
+      "inclination": 29.0,
       "color": "grey",
       "lineColor": "black",
       "markerSize": 2
@@ -287,6 +477,7 @@
       "rad": 17.8,
       "frames": 27492,
       "eccentricity": 0.9671,
+      "inclination": 162.3,
       "color": "blue",
       "lineColor": "blue",
       "markerSize": 4
